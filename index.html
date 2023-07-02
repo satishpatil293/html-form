@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <form action="">
+
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"  >
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+        </div>
+
+        <div>
+            <label for="phone number">Phone Number:</label>
+            <input type="tel" id="phone number" name="phone number" maxlength="10" >
+        </div>
+
+        <div>
+            <label for="pwd">Password:</label>
+            <input type="password" id="pwd" name="password" maxlength="25">
+        </div>
+        
+        <div>
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age" min="10" max="70">
+        </div>
+
+        <div>Gender:<br/>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" value="female">
+        </div>
+
+        <div>
+            <label for="day">Birthday</label>
+            <input type="date" id="day" name="day">
+        </div>
+
+        <div>
+            <label for="color">Color Picker:</label>
+            <input type="color" id="color" name="color" value="#000000">
+        </div>
+
+        <button>Submit</button>
+    </form>
+    
+</body>
+</html>
